@@ -3,16 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A52C5A126A96E09004324B7 /* StudentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52C5A026A96E09004324B7 /* StudentCard.swift */; };
+		3A52C5A326A96EB9004324B7 /* DetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52C5A226A96EB9004324B7 /* DetailInfo.swift */; };
 		3AC1F00526A8536F008158EE /* HarryPotterAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F00426A8536F008158EE /* HarryPotterAppApp.swift */; };
 		3AC1F00726A8536F008158EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F00626A8536F008158EE /* ContentView.swift */; };
 		3AC1F00926A85372008158EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1F00826A85372008158EE /* Assets.xcassets */; };
 		3AC1F00C26A85372008158EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1F00B26A85372008158EE /* Preview Assets.xcassets */; };
 		3AC1F01726A85373008158EE /* HarryPotterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F01626A85373008158EE /* HarryPotterAppTests.swift */; };
 		3AC1F02226A85373008158EE /* HarryPotterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F02126A85373008158EE /* HarryPotterAppUITests.swift */; };
+		3AC1F03126A85394008158EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F03026A85394008158EE /* Constants.swift */; };
+		3AC1F03526A856E2008158EE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F03426A856E2008158EE /* ViewModel.swift */; };
+		3AC1F03826A85A52008158EE /* GXUtilz in Frameworks */ = {isa = PBXBuildFile; productRef = 3AC1F03726A85A52008158EE /* GXUtilz */; };
+		3AC1F03C26A85D17008158EE /* StudentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F03B26A85D17008158EE /* StudentList.swift */; };
+		3AC1F04026A85D7F008158EE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F03F26A85D7F008158EE /* Enums.swift */; };
+		3AC1F04226A85F33008158EE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F04126A85F33008158EE /* Student.swift */; };
+		3AC1F04526A860C1008158EE /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3AC1F04426A860C1008158EE /* SDWebImageSwiftUI */; };
+		3AC1F04726A9635F008158EE /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1F04626A9635F008158EE /* InfoRow.swift */; };
+		3AC1F04A26A96C64008158EE /* BetterCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 3AC1F04926A96C64008158EE /* BetterCodable */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A52C5A026A96E09004324B7 /* StudentCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCard.swift; sourceTree = "<group>"; };
+		3A52C5A226A96EB9004324B7 /* DetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfo.swift; sourceTree = "<group>"; };
 		3AC1F00126A8536F008158EE /* HarryPotterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC1F00426A8536F008158EE /* HarryPotterAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterAppApp.swift; sourceTree = "<group>"; };
 		3AC1F00626A8536F008158EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +58,12 @@
 		3AC1F01D26A85373008158EE /* HarryPotterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarryPotterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC1F02126A85373008158EE /* HarryPotterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterAppUITests.swift; sourceTree = "<group>"; };
 		3AC1F02326A85373008158EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC1F03026A85394008158EE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3AC1F03426A856E2008158EE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3AC1F03B26A85D17008158EE /* StudentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentList.swift; sourceTree = "<group>"; };
+		3AC1F03F26A85D7F008158EE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		3AC1F04126A85F33008158EE /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		3AC1F04626A9635F008158EE /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC1F04A26A96C64008158EE /* BetterCodable in Frameworks */,
+				3AC1F04526A860C1008158EE /* SDWebImageSwiftUI in Frameworks */,
+				3AC1F03826A85A52008158EE /* GXUtilz in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,10 +117,12 @@
 		3AC1F00326A8536F008158EE /* HarryPotterApp */ = {
 			isa = PBXGroup;
 			children = (
-				3AC1F00426A8536F008158EE /* HarryPotterAppApp.swift */,
-				3AC1F00626A8536F008158EE /* ContentView.swift */,
-				3AC1F00826A85372008158EE /* Assets.xcassets */,
 				3AC1F00D26A85372008158EE /* Info.plist */,
+				3AC1F04E26A96DA4008158EE /* ViewModel */,
+				3AC1F04D26A96D62008158EE /* Support */,
+				3AC1F04C26A96C76008158EE /* Views */,
+				3AC1F04B26A96C6E008158EE /* Models */,
+				3AC1F02F26A85381008158EE /* Utils */,
 				3AC1F00A26A85372008158EE /* Preview Content */,
 			);
 			path = HarryPotterApp;
@@ -130,6 +154,60 @@
 			path = HarryPotterAppUITests;
 			sourceTree = "<group>";
 		};
+		3AC1F02F26A85381008158EE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1F03026A85394008158EE /* Constants.swift */,
+				3AC1F03F26A85D7F008158EE /* Enums.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3AC1F04B26A96C6E008158EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1F04126A85F33008158EE /* Student.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AC1F04C26A96C76008158EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1F04F26A96DB0008158EE /* Components */,
+				3AC1F03B26A85D17008158EE /* StudentList.swift */,
+				3AC1F00626A8536F008158EE /* ContentView.swift */,
+				3A52C5A226A96EB9004324B7 /* DetailInfo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AC1F04D26A96D62008158EE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1F00426A8536F008158EE /* HarryPotterAppApp.swift */,
+				3AC1F00826A85372008158EE /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		3AC1F04E26A96DA4008158EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1F03426A856E2008158EE /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3AC1F04F26A96DB0008158EE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1F04626A9635F008158EE /* InfoRow.swift */,
+				3A52C5A026A96E09004324B7 /* StudentCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +224,11 @@
 			dependencies = (
 			);
 			name = HarryPotterApp;
+			packageProductDependencies = (
+				3AC1F03726A85A52008158EE /* GXUtilz */,
+				3AC1F04426A860C1008158EE /* SDWebImageSwiftUI */,
+				3AC1F04926A96C64008158EE /* BetterCodable */,
+			);
 			productName = HarryPotterApp;
 			productReference = 3AC1F00126A8536F008158EE /* HarryPotterApp.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +300,11 @@
 				Base,
 			);
 			mainGroup = 3AC1EFF826A8536E008158EE;
+			packageReferences = (
+				3AC1F03626A85A52008158EE /* XCRemoteSwiftPackageReference "gxutilz" */,
+				3AC1F04326A860C1008158EE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				3AC1F04826A96C64008158EE /* XCRemoteSwiftPackageReference "BetterCodable" */,
+			);
 			productRefGroup = 3AC1F00226A8536F008158EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A52C5A326A96EB9004324B7 /* DetailInfo.swift in Sources */,
 				3AC1F00726A8536F008158EE /* ContentView.swift in Sources */,
+				3A52C5A126A96E09004324B7 /* StudentCard.swift in Sources */,
 				3AC1F00526A8536F008158EE /* HarryPotterAppApp.swift in Sources */,
+				3AC1F03526A856E2008158EE /* ViewModel.swift in Sources */,
+				3AC1F03126A85394008158EE /* Constants.swift in Sources */,
+				3AC1F04026A85D7F008158EE /* Enums.swift in Sources */,
+				3AC1F03C26A85D17008158EE /* StudentList.swift in Sources */,
+				3AC1F04226A85F33008158EE /* Student.swift in Sources */,
+				3AC1F04726A9635F008158EE /* InfoRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +676,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AC1F03626A85A52008158EE /* XCRemoteSwiftPackageReference "gxutilz" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.com/garpix/packages/swiftui/gxutilz";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3AC1F04326A860C1008158EE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3AC1F04826A96C64008158EE /* XCRemoteSwiftPackageReference "BetterCodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marksands/BetterCodable";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AC1F03726A85A52008158EE /* GXUtilz */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AC1F03626A85A52008158EE /* XCRemoteSwiftPackageReference "gxutilz" */;
+			productName = GXUtilz;
+		};
+		3AC1F04426A860C1008158EE /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AC1F04326A860C1008158EE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		3AC1F04926A96C64008158EE /* BetterCodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AC1F04826A96C64008158EE /* XCRemoteSwiftPackageReference "BetterCodable" */;
+			productName = BetterCodable;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AC1EFF926A8536E008158EE /* Project object */;
 }
