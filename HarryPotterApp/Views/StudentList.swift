@@ -12,13 +12,11 @@ struct StudentList: View {
     var body: some View {
         VStack {
             switch viewModel.loadState {
-            case .initial:
-                EmptyView()
-            case .load:
+            case .loading:
                 ProgressView("Download")
             case .success:
                 list
-            case .fail:
+            case .failure:
                 Text(viewModel.errorMessage)
             }
         }

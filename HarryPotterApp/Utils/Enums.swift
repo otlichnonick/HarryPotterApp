@@ -8,10 +8,9 @@
 import Foundation
 
 enum LoadState {
-    case initial
-    case load
+    case loading
     case success
-    case fail
+    case failure
 }
 
 enum Houses: String, CaseIterable {

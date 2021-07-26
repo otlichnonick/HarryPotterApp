@@ -9,7 +9,7 @@ import Foundation
 
 class ViewModel: ObservableObject {
     @Published var house = ""
-    @Published var loadState = LoadState.initial
+    @Published var loadState = LoadState.loading
     var houses = Houses.allCases
     var errorMessage = ""
     var students = [Student]()
@@ -18,7 +18,7 @@ class ViewModel: ObservableObject {
 extension ViewModel {
     func getStudents() {
         students = []
-        loadState = .load
+        loadState = .loading
         guard let url = URL(string: Constants.baseUrl + house.lowercased()) else { return }
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data else { return }

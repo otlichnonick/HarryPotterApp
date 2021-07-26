@@ -12,4 +12,5 @@ struct Constants {
     static let houseFill = "house.fill"
     static let starFill = "star.fill"
     static let star = "star"
+    static let failure = "multiply.circle"
 }
