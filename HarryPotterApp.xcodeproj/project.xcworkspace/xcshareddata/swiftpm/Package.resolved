@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BetterCodable",
+        "repositoryURL": "https://github.com/marksands/BetterCodable",
+        "state": {
+          "branch": "master",
+          "revision": "26265c0a45002437880ec84c9d95d15eaf44c42d",
+          "version": null
+        }
+      },
+      {
+        "package": "GXUtilz",
+        "repositoryURL": "https://gitlab.com/garpix/packages/swiftui/gxutilz",
+        "state": {
+          "branch": "master",
+          "revision": "879577a2363213c0c0bb77aa1021d92e4792765d",
+          "version": null
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "76dd4b49110b8624317fc128e7fa0d8a252018bc",
+          "version": "5.11.1"
+        }
+      },
+      {
+        "package": "SDWebImageSwiftUI",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImageSwiftUI",
+        "state": {
+          "branch": "master",
+          "revision": "336d3f6d3b53729c1f274bf6b75f4532ada116eb",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
